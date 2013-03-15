@@ -1,0 +1,50 @@
+.color-slider {
+    position:fixed;
+    left:-440px;
+    z-index:1000;
+    transition:left 0.3s ease;
+    -webkit-transition:left 0.3s ease;
+    color:white;
+    font-weight: bolder;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.color-slider > div {
+    float:left;
+    background-color: black;
+}
+
+.control {
+    width:400px;
+    padding:20px;
+}
+
+.rainbow-container {
+	min-height:400px;
+  min-width: 440px;
+}
+
+.color-tab {
+    -moz-transform: rotate(90deg);  /* FF3.5+ */
+       -o-transform: rotate(90deg);  /* Opera 10.5 */
+  -webkit-transform: rotate(90deg);
+  position:relative;
+  top:72px;
+  left:-72px;
+  padding-right:10px;
+}
+
+.rain-title {
+	width:100%;
+	clear:both;
+	background-color: #ddd;
+}
+
+.rainbow-sliders {
+	height:0px;
+	overflow:hidden;
+	transition:height .3s ease;
+	-webkit-transition:height .3s ease;
+}
